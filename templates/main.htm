@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+        <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+        <title>MetaBase</title>
+    </head>
+
+    <body>
+        <div class="jumbotron-fluid" style="text-align: center; overlow: hidden; position: absolute; opacity: 1; width: 100%; height: 100%; background: #000000 url({{ url_for('static', filename='images/banner.jpg') }}) center bottom no-repeat;">
+          <h1 class="display-4" style="padding: 30px; color: #fff;">Welcome to Metabase</h1>
+          <p style="color: #fff;" class="lead">Here you can join various number of chat rooms and start messaging for free.<br>No Registration required !</p>
+          <hr style="color: #fff;" class="my-4">
+          <p style="color: #fff;">Join more than 10 million Metabases and start making friends today.</p>
+          <p class="lead">
+            <center><a class="btn btn-success btn-lg" href="{{ url_for('chat') }}" role="button">Start</a></center>
+          </p>
+        </div>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
